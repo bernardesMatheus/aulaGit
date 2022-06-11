@@ -44,5 +44,13 @@
     Utilizado para "mesclar" alterações entre duas branches
     Ex: Estou na branch "master" e quero trazer todas as modificações feitas na branch estilizações. Posso utilizar: git merge estilizacoes , e resolver os conflitos pendentes
 
-- git push
-- git pull
+- git push [variavel que representa o seu repositório remoto] [nome da branch]
+    Utilizado para enviar as modificações de uma branch local a uma branch do repositório remoto
+    Ex: git push origin master
+
+- git push --set-upstream [variavel que representa o seu repositório remoto] [nome da branch]
+    Utilizado para explicitar que queremos fazer push para uma branch específica, que ainda não está sincronizada entre o repositório remoto e local
+
+- git pull [variavel que representa o seu repositório remoto] [nome da branch]
+    Utilizado para trazer as modificações de uma branch remota para a sua branch local
+    Ex: git pull origin master
