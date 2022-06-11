@@ -40,7 +40,9 @@
 - git checkout -b [nome da branch]
     Cria uma nova branch (assim como o git branch) com o nome especificado, e em seguida faz o checkout para ela
 
-- git merge
+- git merge [nome da branch que você deseja trazer as alterações]
+    Utilizado para "mesclar" alterações entre duas branches
+    Ex: Estou na branch "master" e quero trazer todas as modificações feitas na branch estilizações. Posso utilizar: git merge estilizacoes , e resolver os conflitos pendentes
 
 - git push
 - git pull
