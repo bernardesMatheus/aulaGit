@@ -19,6 +19,8 @@
 - git add .
     Rastrea todas as alterações, adições e remoções feitas nos arquivos da pasta que contém o .git
 - git commit -m "Alguma coisa"
+    Cria uma referência para as alterações feitas no último git add .
+    Você pode ver todos os commits do projeto através do comando git log --all
 
 - git branch [nome da branch]
     Cria uma nova branch com o nome passado no terminal git
